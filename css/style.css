@@ -109,13 +109,13 @@ a.nav-link {
 
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-nav .nav-link{
-    border: solid 1px transparent;
+    border: solid 2px transparent;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
     color: rgb(0, 0, 0);
-    border: solid 1px var(--clr-accent, 0.7);
+    border: solid 2px var(--clr-accent);
 }
 
 .dropdown-toggle::after {
@@ -130,7 +130,27 @@ a.nav-link {
 
 }
 
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: hsla(50, 100%, 52%,0.7);
+}
 
+.dropdown-burn:hover,
+.dropdown-burn:focus {
+    background-color: hsla(0, 100%, 42%, 0.7);
+}
+
+.dropdown-build:hover,
+.dropdown-build:focus {
+    background-color: hsla(46, 100%, 50%, 0.7);
+}
+
+.dropdown-stretch:hover,
+.dropdown-stretch:focus {
+    background-color: hsla(188, 78%, 41%, 0.7);;
+}
 
 
 /* ----------------------------------------------------------------Home page hero image */
