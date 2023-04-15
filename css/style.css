@@ -65,9 +65,15 @@ h3 {
 }
 
 /* keep links to right on navbar */
-.navbar-collapse {
+
+#navbarTogglerMenu {
+    margin-top: .25em;
     flex-grow: 0;
-} 
+}
+
+.navbar-light:hover {
+    margin: 0;
+}
 
 .navbar .navbar-brand {
     font-family: 'Exo';
@@ -78,6 +84,10 @@ h3 {
     color: #000;
     text-decoration: none;
     font-family: Exo;
+}
+
+.navbar .nav-pills:hover{
+    margin: 0;
 }
 
 a.nav-link {
@@ -92,21 +102,20 @@ a.nav-link {
 }
 
 /* when buttons are in focus, hover or active */
-.nav-pills a.nav-link.active {
+.nav-pills .nav-link.active {
     color: #fff;
     background-color: var(--clr-link);
 }
 
-.navbar .nav-pills .menu-link.active {
-    background-color: var(--clr-accent, 0.7);
-    color: #000;
-    font-weight: 700;
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link{
+    border: solid 1px transparent;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
     color: rgb(0, 0, 0);
-    border: solid 1.5px var(--clr-accent, 0.7);
+    border: solid 1px var(--clr-accent, 0.7);
 }
 
 .dropdown-toggle::after {
@@ -121,11 +130,10 @@ a.nav-link {
 
 }
 
-#navbarTogglerMenu {
-    margin-top: .25em;
-}
 
-/* Home page hero image */
+
+
+/* ----------------------------------------------------------------Home page hero image */
 
 div .card-img-overlay > h1 {
     background-color: rgba(0, 0, 0, 0.7);
@@ -150,18 +158,23 @@ div .card-img-overlay > h1 {
     border-radius: 5px;
 }
 
-.button {
-    cursor: pointer;
-    font-family: Oswald;
-    font-size: 20px;
-    background-color: var(--clr-accent);
-    border: solid 1px var(--clr-dark);
-    display: flex;
-    justify-content: center;
+.home-btn-cont {
+    text-align: center;
 }
 
-.button:hover,
-.button::focus {
+.home-button {
+    cursor: pointer;
+    font-family: 'Oswald';
+    font-size: 20px;
+    padding: 5px;
+    background-color: var(--clr-accent);
+    border: solid 1px var(--clr-dark);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.home-button:hover,
+.home-button:focus {
     background-color: rgba(0, 0, 0, 0.7);
     color: #ffc300;
 }
