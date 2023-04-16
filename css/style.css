@@ -228,86 +228,7 @@ div .card-img-overlay > h1 {
 
 } */
 
-@media (max-width: 767px) {
 
-    h1 {
-        margin-top: 20px;
-        padding-top: 10px;
-        text-align: center;
-        font-size: 25px;
-    }
-
-    h2 {
-        margin-top: 10px;
-        padding-top: 5px;
-        text-align: center;
-        font-size: 20px;
-    }
-
-div .card-img-overlay > h1 {
-    font-size: 20px;
-    padding: 2px;
-    width: 100%;
-}
-
-.card-img-overlay h2 {
-    font-size: 10px;
-    width: 50%;
-    text-align: center;
-    position: absolute;
-    padding: 2px;
-}
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    h1 {
-        margin-top: 20px;
-        padding-top: 10px;
-        text-align: center;
-        font-size: 35px;
-    }
-
-    h2 {
-        margin-top: 10px;
-        padding-top: 5px;
-        text-align: center;
-        font-size: 25px;
-    }
-
-    .column-2,
-    .column-1 {
-        width: 33%;
-
-    }
-
-    .navbar-toggler.toggler-example {
-        cursor: pointer;
-    }
-
-}
-
-@media (min-width: 992px) {
-
-    h1 {
-        margin-top: 20px;
-        padding-top: 10px;
-        text-align: center;
-        font-size: 35px;
-    }
-
-    h2 {
-        margin-top: 10px;
-        padding-top: 5px;
-        text-align: center;
-        font-size: 25px;
-    }
-
-    .column-2,
-    .column-1 {
-        width: 33%;
-
-    }
-}
 
 footer {
     position: absolute;
@@ -339,7 +260,7 @@ hr {
 }
 
 .about-img-card {
-    margin: 0.1rem 2rem;
+    margin: 1rem 5rem 0rem ;
 }
 
 .page-header h1 {
@@ -355,6 +276,7 @@ hr {
 
 #about-card {
     padding: 2rem;
+    width: fit-content;
 }
 
 .card-title {
@@ -366,10 +288,12 @@ hr {
 
 #about-card .about-text {
     border: solid 1px rgba(0, 0, 0, 1);
+
 }
 
 .about-text {
     text-align: center;
+
 }
 
 .about-last-p {
@@ -390,4 +314,95 @@ hr {
     background-color: rgba(0, 0, 0, 0.7);
     color: var(--clr-accent);
     box-shadow: 5px 5px 5px var(--clr-accent);
+}
+
+/*------------------------------------------------- Media Queries*/
+
+@media (max-width: 767px) {
+
+    h1 {
+        margin-top: 20px;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        padding-top: 5px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    div .card-img-overlay > h1 {
+        font-size: 20px;
+        padding: 2px;
+        width: 100%;
+    }
+
+    .card-img-overlay h2 {
+        font-size: 10px;
+        width: 50%;
+        text-align: center;
+        position: absolute;
+        padding: 2px;
+    }
+
+    .about-img-card {
+        margin: 1rem 1rem 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        margin-top: 20px;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        padding-top: 5px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .column-2,
+    .column-1 {
+        width: 33%;
+
+    }
+
+    .navbar-toggler.toggler-example {
+        cursor: pointer;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    h1 {
+        margin-top: 20px;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        padding-top: 5px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .column-2,
+    .column-1 {
+        width: 33%;
+
+    }
 }
