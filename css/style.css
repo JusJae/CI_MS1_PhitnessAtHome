@@ -309,3 +309,25 @@ div .card-img-overlay > h1 {
     }
 }
 
+footer {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    bottom: auto;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .7)
+}
+
+
+.fas {
+    color: #ffc300;
+}
+
+.btn > .fab {
+    color: #000;
+    width: 35px;
+}
+
+hr {
+    border: 1px solid white;
+}
