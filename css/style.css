@@ -318,6 +318,51 @@ hr {
 
 /*----------------------------------------------------------------Exercises Page*/
 
+.exercise-text {
+    margin-top: 30px;
+    border: solid 2px #000;
+    border-radius: 5px;
+    justify-content: center;
+    width: fit-content;
+    text-align: center;
+}
+
+.container .page-sub-header {
+    display: flex;
+    justify-content: center;
+}
+
+.page-sub-header #burn-deck {
+    display: block;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    background-color: rgb(215, 0, 0);
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.page-sub-header #build-deck {
+    display: block;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    background-color: #ffc300;
+    color: #000814;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.page-sub-header #stretch-deck {
+    display: block;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    background-color: rgba(23, 162, 184, 1);
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
 .col {
     display: flex;
     flex-flow: row wrap;
@@ -456,6 +501,7 @@ small {
 }
 
 
+
 /*------------------------------------------------- Media Queries*/
 
 @media (max-width: 767px) {
@@ -490,6 +536,15 @@ small {
 
     .about-img-card {
         margin: 1rem 1rem 0;
+    }
+
+    .popup {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .exercise-text {
+        margin: 15px;
     }
 }
 
@@ -545,13 +600,3 @@ small {
         width: 33%;
     }
 }
-
-@media screen and (max-width: 700px) {
-
-    .popup {
-        width: 90%;
-        margin: 10px auto;
-    }
-
-}
-
