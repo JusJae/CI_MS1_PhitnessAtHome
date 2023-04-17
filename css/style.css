@@ -392,10 +392,7 @@ hr {
     text-align: center;
     letter-spacing: 1px;
     border-radius: 5px;
-}
-
-small {
-    color: #fff;
+    padding: 5px;
 }
 
 .card-img-top {
@@ -414,8 +411,8 @@ small {
     width: 100%;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, .1);
-    padding: 20px;
-    border-radius: 10px;
+    padding: 18px;
+    border-radius: 5px;
     background-clip: padding-box;
     text-align: center;
 }
@@ -547,7 +544,7 @@ small {
 small {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
-    padding: 5px;
+    padding: 2px;
 }
 
 .form-control:focus {
@@ -704,5 +701,10 @@ input:hover, input:focus {
     .column-2,
     .column-1 {
         width: 33%;
+    }
+
+    .box {
+        padding: 15px;
+
     }
 }
