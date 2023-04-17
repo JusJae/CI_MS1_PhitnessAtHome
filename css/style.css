@@ -161,7 +161,7 @@ div .card-img-overlay > h1 {
     text-align: center;
     letter-spacing: 2px;
     font-size: 400%;
-    border: solid 1px var(--clr-accent, .7);
+    border: solid 2px var(--clr-accent, .7);
     border-radius: 5px;
 }
 
@@ -175,6 +175,7 @@ div .card-img-overlay > h1 {
     position: absolute;
     bottom: 4px;
     right: 8px;
+    border: solid 1px var(--clr-dark);
     border-radius: 5px;
 }
 
@@ -185,10 +186,10 @@ div .card-img-overlay > h1 {
 .home-button {
     cursor: pointer;
     font-family: 'Oswald';
-    font-size: 20px;
+    font-size: 25px;
     padding: 5px;
     background-color: var(--clr-accent);
-    border: solid 1px var(--clr-dark);
+    border: solid 2px var(--clr-dark);
     border-radius: 5px;
     width: 100%;
 }
@@ -220,10 +221,14 @@ div .card-img-overlay > h1 {
 .container-fluid .row {
     margin: 20px;
 }
-
+ /* .row {
+    gap: 10px;
+ }
+  */
 .row .card {
     border: solid 2px #000;
     margin: 10px;
+    height: 100%;
 }
 
 .burn-button {
@@ -403,10 +408,6 @@ hr {
     object-fit: cover;
 }
 
-#pushups video {
-    padding-bottom: 3rem;
-}
-
 .box {
     width: 100%;
     margin: 0 auto;
@@ -419,7 +420,7 @@ hr {
 
 .button {
     font-size: 1em;
-    padding: 10px;
+    padding: 5px;
     color: #fff;
     border: 2px solid rgba(255, 195, 0, 1);
     border-radius: 5px;
