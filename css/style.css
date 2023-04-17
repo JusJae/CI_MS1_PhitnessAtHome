@@ -213,22 +213,32 @@ div .card-img-overlay > h1 {
     font-size: 1.0rem;
 }
 
-/* .card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: 0.25rem;
+.welcome-text .card {
+    border: solid 2px #000
+}
 
-} */
+.container-fluid .row {
+    margin: 20px;
+}
 
+.row .card {
+    border: solid 2px #000;
+    margin: 10px;
+}
 
+.burn-button {
+    background-color: var(--clr-burn);
+}
+
+.build-button {
+    background-color: var(--clr-build);
+}
+
+.stretch-button {
+    background-color: var(--clr-stretch);
+}
+
+/*------------------------Footer*/
 
 footer {
     position: absolute;
@@ -293,7 +303,6 @@ hr {
 
 .about-text {
     text-align: center;
-
 }
 
 .about-last-p {
@@ -558,14 +567,18 @@ input {
 }
 
 input:hover, input:focus {
-    border: solid 2px rgba(255, 214, 10,1);
+    border: solid 2px var(--clr-link);
 }
 
-
-.form-check-input:focus, .form-check-input:hover, .form-check-input:active, .form-check-input:checked {
+.form-check-input:hover {
     background-color: var(--clr-accent);
     border-color: var(--clr-dark);
     box-shadow: 0 0 0 0.25rem rgba(255, 214, 10, .25);
+}
+
+.form-check-input:focus,  .form-check-input:active, .form-check-input:checked {
+    border-color: var(--clr-link);
+    background-color: var(--clr-link);
 }
 
 
