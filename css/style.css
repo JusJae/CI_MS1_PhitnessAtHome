@@ -500,7 +500,100 @@ small {
     overflow: auto;
 }
 
+/*-------------------------------------------------------------- Contact Form */
+.card > .contact-info {
+    padding: 5px;
+    border: solid 2px #000000;
+    border-radius: 5px;
+    text-align: center;
+}
 
+.contact-container{
+    clear: left;
+    margin: 20px;
+    border: solid 2px var(--clr-dark);
+    border-radius: 5px;
+    background-image: url("/assets/images/contact-us.png");
+    background-color: rgba(60, 60, 60, 0.7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    --bs-gutter-x: 0rem;
+}
+
+.contact-form {
+    color: var(--clr-neutral);
+    background-color:rgba(60, 60, 60, 0.7);
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+.contact-container > h3 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+small {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form-control:focus {
+    border-color: rgb(255, 214, 10);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 214, 10, .225);
+}
+
+input {
+    background: transparent;
+    color: var(--clr-neutral);
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+}
+
+input:hover, input:focus {
+    border: solid 2px rgba(255, 214, 10,1);
+}
+
+
+.form-check-input:focus, .form-check-input:hover, .form-check-input:active, .form-check-input:checked {
+    background-color: var(--clr-accent);
+    border-color: var(--clr-dark);
+    box-shadow: 0 0 0 0.25rem rgba(255, 214, 10, .25);
+}
+
+
+.contact-container label {
+    font-family: 'Exo';
+}
+
+.contact-container h5 {
+    text-align: left;
+}
+
+#submit-button {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 100%;
+    background-color: #ffc300;
+    color: #000814;
+    display: block;
+    border: solid 0.5px #000814
+}
+
+#submit-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffc300;
+}
 
 /*------------------------------------------------- Media Queries*/
 
