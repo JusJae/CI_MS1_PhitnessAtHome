@@ -161,12 +161,12 @@ div .card-img-overlay > h1 {
     text-align: center;
     letter-spacing: 2px;
     font-size: 400%;
-    border: solid 2px var(--clr-accent, .7);
+    border: solid 2px hsla(50, 100%, 52%, .7);
     border-radius: 5px;
 }
 
 .card-img-overlay h2 {
-    background-color: var(--clr-accent, .7);
+    background-color: hsla(50, 100%, 52%, .7);;
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 1px;
