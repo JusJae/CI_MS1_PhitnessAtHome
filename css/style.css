@@ -1,10 +1,5 @@
-/*-------------------------------------------------  Font imports */
 
-@import url('https://fonts.googleapis.com/css?family=Exo|Lato|Oswald');
-
-/*----------------------------------------------------- Root style*/
-
-:root {
+* {
     --clr-dark: hsl(207, 19%, 9%);
     --clr-neutral: hsl(0, 0%, 100%);
     --clr-accent: hsl(50, 100%, 52%);
